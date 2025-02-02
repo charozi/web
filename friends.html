@@ -1,0 +1,161 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charozi - Friends</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Directly linking to Unifont from a CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/unifont@15.0.01/font/unifont.min.css" rel="stylesheet">
+    <style>
+        .friend-card {
+            position: relative;
+            overflow: hidden;
+        }
+        .friend-hover-links {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .friend-card:hover .friend-hover-links {
+            opacity: 1;
+        }
+        .friend-hover-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(255,255,255,0.2);
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            gap: 5px;
+        }
+        .friend-hover-links a:hover {
+            background-color: rgba(255,255,255,0.4);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>CHAROZI</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="links.html">Links</a></li>
+                <li><a href="friends.html">Friends</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="friends-section">
+            <div class="friends-content">
+                <h2>My Friends</h2>
+                <div class="links-grid-vertical">
+                    <div class="link-card friend-card" style="background-color: #2196F3;">
+                        <span class="material-icons">people</span>
+                        BerryBlade
+                        <div class="friend-hover-links">
+                            <a href="https://www.youtube.com/@mr_berryblade" target="_blank" title="YouTube">
+                                <span class="material-icons">play_circle</span>
+                                YouTube
+                            </a>
+                            <a href="https://namemc.com/profile/BerryBlade" target="_blank" title="NameMC">
+                                <span class="material-icons">person</span>
+                                NameMC
+                            </a>
+                        </div>
+                    </div>
+                    <div class="link-card friend-card" style="background-color: #808080;">
+                        <span class="material-icons">people</span>
+                        GabrielYoutube
+                        <div class="friend-hover-links">
+                            <a href="https://www.youtube.com/@Gabriel_Gaming" target="_blank" title="YouTube">
+                                <span class="material-icons">play_circle</span>
+                                YouTube
+                            </a>
+                            <a href="https://www.twitch.tv/gabrielthesandwich" target="_blank" title="Twitch">
+                                <span class="material-icons">live_tv</span>
+                                Twitch
+                            </a>
+                            <a href="https://namemc.com/profile/GabrielYoutube" target="_blank" title="NameMC">
+                                <span class="material-icons">person</span>
+                                NameMC
+                            </a>
+                        </div>
+                    </div>
+                    <div class="link-card friend-card" style="background-color: #FF0000;">
+                        <span class="material-icons">people</span>
+                        Reynye
+                        <div class="friend-hover-links">
+                            <a href="https://www.youtube.com/channel/UCkn8FTU15XKEouPpTXkC-Iw" target="_blank" title="YouTube">
+                                <span class="material-icons">play_circle</span>
+                                YouTube
+                            </a>
+                            <a href="https://namemc.com/profile/Reynye" target="_blank" title="NameMC">
+                                <span class="material-icons">person</span>
+                                NameMC
+                            </a>
+                        </div>
+                    </div>
+                    <div class="link-card friend-card" style="background-color: #808080;">
+                        <span class="material-icons">people</span>
+                        TheMouse55
+                        <div class="friend-hover-links">
+                            <a href="https://www.youtube.com/channel/UCoIp3ukyaYc4lNqHmCvii1A" target="_blank" title="YouTube">
+                                <span class="material-icons">play_circle</span>
+                                YouTube
+                            </a>
+                            <a href="https://namemc.com/profile/obvmouse" target="_blank" title="NameMC">
+                                <span class="material-icons">person</span>
+                                NameMC
+                            </a>
+                        </div>
+                    </div>
+                    <div class="link-card friend-card" style="background-color: #87CEEB;">
+                        <span class="material-icons">people</span>
+                        Xaymxne
+                        <div class="friend-hover-links">
+                            <a href="https://www.youtube.com/channel/UCOuYbZX4MUVw_ijQXWp06pQ" target="_blank" title="YouTube">
+                                <span class="material-icons">play_circle</span>
+                                YouTube
+                            </a>
+                            <a href="https://namemc.com/profile/xaymxneyt" target="_blank" title="NameMC">
+                                <span class="material-icons">person</span>
+                                NameMC
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.youtube.com/@czarodzi" target="_blank">
+                <span class="material-icons">play_circle</span> YouTube
+            </a>
+            <a href="https://discord.gg/awFX43bUm5" target="_blank">
+                <span class="material-icons">chat</span> Discord
+            </a>
+        </div>
+        <p> 2025 Charozi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
