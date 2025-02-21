@@ -7,44 +7,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/unifont@15.0.01/font/unifont.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #ff9800, #ff5722);
+            font-family: 'Inter', sans-serif;
+            color: white;
+            text-align: center;
+        }
+        .faq-container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .faq p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>CHAROZI</h1>
-            </div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="links.html">Links</a></li>
-                <li><a href="friends.html">Friends</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="content">
-            <h2>FAQ: Why Do You Need to Verify Your Account?</h2>
-            <div class="faq">
-                <p><strong>Why do I need to verify my account?</strong><br>To prevent bots, spam, and trolls from disrupting the server.</p>
-                <p><strong>How do I verify my account?</strong><br>Follow the verification steps in the designated channel.</p>
-                <p><strong>What happens if I don’t verify?</strong><br>You won’t get full access to the server.</p>
-                <p><strong>Is verification safe?</strong><br>Yes! It’s just to confirm you’re a real user.</p>
-                <p><strong>I’m having trouble verifying. What should I do?</strong><br>Contact a moderator for help.</p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="social-links">
-            <a href="https://www.youtube.com/channel/UClhIgIixoe4Pv89B8zmNvcw" target="_blank">
-                <span class="material-icons">play_circle</span> YouTube
-            </a>
-            <a href="https://discord.gg/awFX43bUm5" target="_blank">
-                <span class="material-icons">chat</span> Discord
-            </a>
+    <div class="faq-container">
+        <h2>FAQ: Why Do You Need to Verify Your Account?</h2>
+        <div class="faq">
+            <p><strong>Why do I need to verify my account?</strong><br>To prevent bots, spam, and trolls from disrupting the server.</p>
+            <p><strong>How do I verify my account?</strong><br>Follow the verification steps in the designated channel.</p>
+            <p><strong>What happens if I don’t verify?</strong><br>You won’t get full access to the server.</p>
+            <p><strong>Is verification safe?</strong><br>Yes! It’s just to confirm you’re a real user.</p>
+            <p><strong>I’m having trouble verifying. What should I do?</strong><br>Contact a moderator for help.</p>
         </div>
-        <p> 2025 Charozi. All Rights Reserved.</p>
-    </footer>
+    </div>
 </body>
 </html>
